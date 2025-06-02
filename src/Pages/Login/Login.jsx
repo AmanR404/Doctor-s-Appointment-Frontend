@@ -19,7 +19,9 @@ const Login = () => {
           <p>We know how large objects will act,</p>
           <p>but things on a small scale.</p>
         </div>
-        <button className='bg-[#2e9fd2] px-12 py-3 rounded-3xl mt-2 cursor-pointer hover:bg-cyan-600 transition-all duration-300 ease-in-out' onClick={()=> loginWithRedirect()}>Login</button>
+        <button className='bg-[#2e9fd2] px-12 py-3 rounded-3xl mt-2 cursor-pointer hover:bg-cyan-600 transition-all duration-300 ease-in-out' onClick={()=> loginWithRedirect({
+  redirectUri: 'https://doctor-s-appointment-frontend-eight.vercel.app/dashboard'
+})}>Login</button>
       </div>
     </div>
    </>
