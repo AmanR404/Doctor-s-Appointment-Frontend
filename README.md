@@ -22,5 +22,6 @@ Physionic is a modern, single-page application (SPA) built to simplify the proce
 | Node.js       | Runtime environment               |
 | Express.js    | Backend server and routing        |
 | MongoDB       | Database for appointments         |
+| OAuth         | Authentication                    |
 ---
 
