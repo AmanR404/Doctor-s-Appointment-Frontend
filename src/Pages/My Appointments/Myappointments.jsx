@@ -70,7 +70,7 @@ const Myappointments = () => {
             <div className='flex justify-between h-1/2 bg-[#3eb3f6]'>
               <div className='flex flex-col text-sm p-2 text-white'>
                 <span>Doctor Details</span>
-                <span>Name : Urvashi Singla</span>
+                <span>Name : Dr. Hameed Ansari</span>
                 <span>Department : {appointment.dept}</span>
                 <span className='mb-2'>Rating : 4.8</span>
                 <span className='font-semibold'>Patient Name : {appointment.name}</span>
