@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <>
    <div className='bg-black h-screen'>
-       <div className="bg-[url('background.jpg')] opacity-50 bg-cover bg-center h-screen">
+       <div className="bg-[url('https://doctor-s-appointment-frontend-eight.vercel.app/background.jpg')] opacity-50 bg-cover bg-center h-screen">
        </div> 
    </div>
     <div className='absolute top-0 w-screen h-screen'>
