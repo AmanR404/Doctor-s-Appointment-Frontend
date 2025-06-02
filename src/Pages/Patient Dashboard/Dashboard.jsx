@@ -2,6 +2,7 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import { useEffect } from 'react'
 
 const Dashboard = () => {
     const { register, handleSubmit, watch, formState: { errors, isSubmitting } } = useForm();
@@ -45,6 +46,18 @@ const Dashboard = () => {
             });
         }
     }
+       useEffect(() => {
+       toast.success(`Login Successful!`, {
+            position: "bottom-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark"
+        });
+    }, [])
 
     return (
         <>
